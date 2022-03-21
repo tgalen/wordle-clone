@@ -5,8 +5,8 @@ const puzzleStyle = {
 const puzzleWrapper = {
   width: "40vw",
   height: "100%",
-  backgroundColor: "red",
   margin: "auto",
+  maxWidth: "500px",
 };
 
 const row = {
