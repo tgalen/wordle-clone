@@ -4,9 +4,9 @@ const puzzleStyle = {
 
 const puzzleWrapper = {
   width: "40vw",
+  maxWidth: "300px",
   height: "100%",
   margin: "auto",
-  maxWidth: "500px",
 };
 
 const row = {
@@ -25,6 +25,11 @@ const letterBox = {
 };
 
 const Puzzle = () => {
+  let answer = "hello";
+  if (answer.includes("o")) {
+    console.log("yellow");
+  }
+
   return (
     <div style={puzzleStyle}>
       <div style={puzzleWrapper}>
